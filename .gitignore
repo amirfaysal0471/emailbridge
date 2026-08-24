@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.vercel/
+
+# Never commit credentials or stored OAuth tokens.
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# Token store — real access and refresh tokens live here.
+backend/data/*.json
+backend/data/*.tmp
+.vercel
