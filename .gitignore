@@ -10,6 +10,7 @@ dist/
 .DS_Store
 .vscode/
 .idea/
+ai/
 
 # Token store — real access and refresh tokens live here.
 backend/data/*.json
