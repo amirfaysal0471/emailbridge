@@ -3,12 +3,9 @@ dist/
 .vercel/
 
 # Never commit credentials or stored OAuth tokens.
-.env
-.env.local
 .env.*.local
 *.log
 .DS_Store
-.vscode/
 .idea/
 ai/
 
@@ -16,3 +13,4 @@ ai/
 backend/data/*.json
 backend/data/*.tmp
 .vercel
+config.bat

@@ -220,6 +220,9 @@ URI: **[docs/deployment.md](docs/deployment.md)**.
   in the callback.
 
 # emailbridge
+
+Developer email: amirfaysal0471@gmail.com
+
 - Email HTML is sanitized with DOMPurify **and** rendered in an iframe whose
   sandbox omits `allow-scripts`.
 - `helmet`, a per-IP rate limit, and Zod validation on every request body and

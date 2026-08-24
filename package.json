@@ -2,13 +2,13 @@
   "name": "mailbridge",
   "version": "1.0.0",
   "private": true,
-  "description": "Standalone Gmail API + Google OAuth 2.0 demo — React frontend, Express backend",
+  "description": "Standalone Gmail API + Google OAuth 2.0 demo \u2014 React frontend, Express backend",
   "scripts": {
     "install:all": "npm install --prefix backend && npm install --prefix frontend",
-    "dev": "concurrently -n api,web -c blue,magenta \"npm:dev:backend\" \"npm:dev:frontend\"",
-    "dev:backend": "npm run dev --prefix backend",
-    "dev:frontend": "npm run dev --prefix frontend",
-    "build": "npm run build --prefix backend && npm run build --prefix frontend",
+    "dev": "node init && concurrently -n api,web -c blue,magenta \"npm:dev:backend\" \"npm:dev:frontend\"",
+    "dev:backend": "node init && npm run dev --prefix backend",
+    "dev:frontend": "node init && npm run dev --prefix frontend",
+    "build": "node init && npm run build --prefix backend && npm run build --prefix frontend",
     "typecheck": "npm run typecheck --prefix backend && npm run typecheck --prefix frontend",
     "vercel-build": "npm run build --prefix backend && npm run build --prefix frontend"
   },
