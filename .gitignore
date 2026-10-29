@@ -13,4 +13,6 @@ ai/
 backend/data/*.json
 backend/data/*.tmp
 .vercel
-config.bat
+.env
+.env.local
+.vscode/
